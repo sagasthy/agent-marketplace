@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kb-skeleton"
+version = "0.1.0"
+description = "Minimal Copilot plugin and MCP launcher test skeleton"
+requires-python = ">=3.12"
+dependencies = ["mcp"]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

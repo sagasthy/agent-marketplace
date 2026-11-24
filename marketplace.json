@@ -1,0 +1,19 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "agent-marketplace",
+  "owner": {
+    "name": "sagasthy"
+  },
+  "metadata": {
+    "description": "A marketplace of Copilot Chat plugins.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "kb-skeleton",
+      "description": "A minimal MCP plugin for verifying Copilot Chat plugin installation and launcher behavior.",
+      "version": "0.1.0",
+      "source": "./kb-skeleton"
+    }
+  ]
+}

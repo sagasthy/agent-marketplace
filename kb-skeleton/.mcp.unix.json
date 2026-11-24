@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "skeleton-bundle": {
+      "type": "stdio",
+      "command": "${PLUGIN_ROOT}/scripts/kb.sh",
+      "args": ["-m", "skeleton_mcp"]
+    }
+  }
+}
